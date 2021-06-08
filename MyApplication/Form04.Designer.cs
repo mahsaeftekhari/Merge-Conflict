@@ -37,7 +37,7 @@ namespace MyApplication
             // nameLabel
             // 
             this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(12, 9);
+            this.nameLabel.Location = new System.Drawing.Point(412, 9);
             this.nameLabel.Name = "nameLabel";
             this.nameLabel.Size = new System.Drawing.Size(60, 13);
             this.nameLabel.TabIndex = 0;
@@ -45,14 +45,14 @@ namespace MyApplication
             // 
             // testTextBox
             // 
-            this.testTextBox.Location = new System.Drawing.Point(12, 25);
+            this.testTextBox.Location = new System.Drawing.Point(372, 26);
             this.testTextBox.Name = "testTextBox";
             this.testTextBox.Size = new System.Drawing.Size(100, 20);
             this.testTextBox.TabIndex = 1;
             // 
             // testButton
             // 
-            this.testButton.Location = new System.Drawing.Point(12, 51);
+            this.testButton.Location = new System.Drawing.Point(397, 52);
             this.testButton.Name = "testButton";
             this.testButton.Size = new System.Drawing.Size(75, 23);
             this.testButton.TabIndex = 2;
