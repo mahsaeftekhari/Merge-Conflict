@@ -29,19 +29,55 @@ namespace MyApplication
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
-			// 
-			// Form03
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(484, 361);
-			this.Location = new System.Drawing.Point(0, 0);
-			this.Name = "Form03";
-			this.ResumeLayout(false);
+            this.myLabel = new System.Windows.Forms.Label();
+            this.marziehTextBox = new System.Windows.Forms.TextBox();
+            this.myButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // myLabel
+            // 
+            this.myLabel.AutoSize = true;
+            this.myLabel.Location = new System.Drawing.Point(13, 13);
+            this.myLabel.Name = "myLabel";
+            this.myLabel.Size = new System.Drawing.Size(84, 13);
+            this.myLabel.TabIndex = 0;
+            this.myLabel.Text = "Mahsa Eftekhari";
+            // 
+            // marziehTextBox
+            // 
+            this.marziehTextBox.Location = new System.Drawing.Point(104, 10);
+            this.marziehTextBox.Name = "marziehTextBox";
+            this.marziehTextBox.Size = new System.Drawing.Size(368, 20);
+            this.marziehTextBox.TabIndex = 1;
+            // 
+            // myButton
+            // 
+            this.myButton.Location = new System.Drawing.Point(396, 37);
+            this.myButton.Name = "myButton";
+            this.myButton.Size = new System.Drawing.Size(75, 23);
+            this.myButton.TabIndex = 2;
+            this.myButton.Text = "button1";
+            this.myButton.UseVisualStyleBackColor = true;
+            // 
+            // Form03
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(484, 361);
+            this.Controls.Add(this.myButton);
+            this.Controls.Add(this.marziehTextBox);
+            this.Controls.Add(this.myLabel);
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Name = "Form03";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 
-		#endregion
-	}
+        #endregion
+
+        private System.Windows.Forms.Label myLabel;
+        private System.Windows.Forms.TextBox marziehTextBox;
+        private System.Windows.Forms.Button myButton;
+    }
 }
