@@ -29,19 +29,54 @@ namespace MyApplication
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.pouriaNameLabel = new System.Windows.Forms.Label();
+			this.pouriaTextBox = new System.Windows.Forms.TextBox();
+			this.pouriaButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
+			// 
+			// pouriaNameLabel
+			// 
+			this.pouriaNameLabel.AutoSize = true;
+			this.pouriaNameLabel.Location = new System.Drawing.Point(9, 15);
+			this.pouriaNameLabel.Name = "pouriaNameLabel2";
+			this.pouriaNameLabel.Size = new System.Drawing.Size(103, 13);
+			this.pouriaNameLabel.TabIndex = 0;
+			this.pouriaNameLabel.Text = "Pouria Heydarzadeh";
+			// 
+			// pouriaTextBox
+			// 
+			this.pouriaTextBox.Location = new System.Drawing.Point(118, 12);
+			this.pouriaTextBox.Name = "pouriaTextBox2";
+			this.pouriaTextBox.Size = new System.Drawing.Size(354, 20);
+			this.pouriaTextBox.TabIndex = 1;
+			// 
+			// pouriaButton
+			// 
+			this.pouriaButton.Location = new System.Drawing.Point(118, 38);
+			this.pouriaButton.Name = "pouriaButton2";
+			this.pouriaButton.Size = new System.Drawing.Size(62, 23);
+			this.pouriaButton.TabIndex = 2;
+			this.pouriaButton.Text = "Click";
+			this.pouriaButton.UseVisualStyleBackColor = true;
 			// 
 			// Form05
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(484, 361);
+			this.Controls.Add(this.pouriaButton2);
+			this.Controls.Add(this.pouriaTextBox2);
+			this.Controls.Add(this.pouriaNameLabel2);
 			this.Location = new System.Drawing.Point(0, 0);
 			this.Name = "Form05";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
-
 		#endregion
+
+		private System.Windows.Forms.Label pouriaNameLabel;
+		private System.Windows.Forms.TextBox pouriaTextBox;
+		private System.Windows.Forms.Button pouriaButton;
 	}
 }
