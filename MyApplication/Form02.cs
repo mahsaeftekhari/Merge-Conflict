@@ -11,13 +11,14 @@
 			InitializeComponent();
 		}
 
+		 #endregion /Default Constructor
 
-
-        #endregion /Default Constructor
-
-        private void SepehrButton_Click(object sender, System.EventArgs e)
-        {
-			this.sepehrTextBox.Text = "Hello and welcome to my Text Box!";
-        }
-    }
+		private void SepehrButton_Click(object sender, System.EventArgs e)
+		{
+			string message =
+				"Hello and welcome to my Text Box!";
+			
+			sepehrTextBox.Text = message;
+		}
+	}
 }
