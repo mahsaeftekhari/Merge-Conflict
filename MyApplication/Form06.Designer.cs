@@ -29,44 +29,44 @@ namespace MyApplication
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.test2Label = new System.Windows.Forms.Label();
-            this.test2TextBox = new System.Windows.Forms.TextBox();
-            this.test2Button = new System.Windows.Forms.Button();
+            this.testLabel = new System.Windows.Forms.Label();
+            this.testTextBox = new System.Windows.Forms.TextBox();
+            this.testButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // test2Label
+            // testLabel
             // 
-            this.test2Label.AutoSize = true;
-            this.test2Label.Location = new System.Drawing.Point(13, 13);
-            this.test2Label.Name = "test2Label";
-            this.test2Label.Size = new System.Drawing.Size(84, 13);
-            this.test2Label.TabIndex = 0;
-            this.test2Label.Text = "Mahsa Eftekhari";
+            this.testLabel.AutoSize = true;
+            this.testLabel.Location = new System.Drawing.Point(13, 13);
+            this.testLabel.Name = "testLabel";
+            this.testLabel.Size = new System.Drawing.Size(84, 13);
+            this.testLabel.TabIndex = 0;
+            this.testLabel.Text = "Mahsa Eftekhari";
             // 
-            // test2TextBox
+            // testTextBox
             // 
-            this.test2TextBox.Location = new System.Drawing.Point(103, 10);
-            this.test2TextBox.Name = "test2TextBox";
-            this.test2TextBox.Size = new System.Drawing.Size(369, 20);
-            this.test2TextBox.TabIndex = 1;
+            this.testTextBox.Location = new System.Drawing.Point(103, 10);
+            this.testTextBox.Name = "testTextBox";
+            this.testTextBox.Size = new System.Drawing.Size(369, 20);
+            this.testTextBox.TabIndex = 1;
             // 
-            // test2Button
+            // testButton
             // 
-            this.test2Button.Location = new System.Drawing.Point(396, 37);
-            this.test2Button.Name = "test2Button";
-            this.test2Button.Size = new System.Drawing.Size(75, 23);
-            this.test2Button.TabIndex = 2;
-            this.test2Button.Text = "button1";
-            this.test2Button.UseVisualStyleBackColor = true;
+            this.testButton.Location = new System.Drawing.Point(396, 37);
+            this.testButton.Name = "testButton";
+            this.testButton.Size = new System.Drawing.Size(75, 23);
+            this.testButton.TabIndex = 2;
+            this.testButton.Text = "testButton";
+            this.testButton.UseVisualStyleBackColor = true;
             // 
             // Form06
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 361);
-            this.Controls.Add(this.test2Button);
-            this.Controls.Add(this.test2TextBox);
-            this.Controls.Add(this.test2Label);
+            this.Controls.Add(this.testButton);
+            this.Controls.Add(this.testTextBox);
+            this.Controls.Add(this.testLabel);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "Form06";
             this.ResumeLayout(false);
@@ -76,8 +76,8 @@ namespace MyApplication
 
         #endregion
 
-        private System.Windows.Forms.Label test2Label;
-        private System.Windows.Forms.TextBox test2TextBox;
-        private System.Windows.Forms.Button test2Button;
+        private System.Windows.Forms.Label testLabel;
+        private System.Windows.Forms.TextBox testTextBox;
+        private System.Windows.Forms.Button testButton;
     }
 }
