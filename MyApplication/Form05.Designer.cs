@@ -29,35 +29,35 @@ namespace MyApplication
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.pouriaNameLabel2 = new System.Windows.Forms.Label();
-			this.pouriaTextBox2 = new System.Windows.Forms.TextBox();
-			this.pouriaButton2 = new System.Windows.Forms.Button();
+			this.pouriaNameLabel = new System.Windows.Forms.Label();
+			this.pouriaTextBox = new System.Windows.Forms.TextBox();
+			this.pouriaButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
-			// pouriaNameLabel2
+			// pouriaNameLabel
 			// 
-			this.pouriaNameLabel2.AutoSize = true;
-			this.pouriaNameLabel2.Location = new System.Drawing.Point(9, 15);
-			this.pouriaNameLabel2.Name = "pouriaNameLabel2";
-			this.pouriaNameLabel2.Size = new System.Drawing.Size(103, 13);
-			this.pouriaNameLabel2.TabIndex = 0;
-			this.pouriaNameLabel2.Text = "Pouria Heydarzadeh";
+			this.pouriaNameLabel.AutoSize = true;
+			this.pouriaNameLabel.Location = new System.Drawing.Point(9, 15);
+			this.pouriaNameLabel.Name = "pouriaNameLabel2";
+			this.pouriaNameLabel.Size = new System.Drawing.Size(103, 13);
+			this.pouriaNameLabel.TabIndex = 0;
+			this.pouriaNameLabel.Text = "Pouria Heydarzadeh";
 			// 
-			// pouriaTextBox2
+			// pouriaTextBox
 			// 
-			this.pouriaTextBox2.Location = new System.Drawing.Point(118, 12);
-			this.pouriaTextBox2.Name = "pouriaTextBox2";
-			this.pouriaTextBox2.Size = new System.Drawing.Size(354, 20);
-			this.pouriaTextBox2.TabIndex = 1;
+			this.pouriaTextBox.Location = new System.Drawing.Point(118, 12);
+			this.pouriaTextBox.Name = "pouriaTextBox2";
+			this.pouriaTextBox.Size = new System.Drawing.Size(354, 20);
+			this.pouriaTextBox.TabIndex = 1;
 			// 
-			// pouriaButton2
+			// pouriaButton
 			// 
-			this.pouriaButton2.Location = new System.Drawing.Point(118, 38);
-			this.pouriaButton2.Name = "pouriaButton2";
-			this.pouriaButton2.Size = new System.Drawing.Size(62, 23);
-			this.pouriaButton2.TabIndex = 2;
-			this.pouriaButton2.Text = "Click";
-			this.pouriaButton2.UseVisualStyleBackColor = true;
+			this.pouriaButton.Location = new System.Drawing.Point(118, 38);
+			this.pouriaButton.Name = "pouriaButton2";
+			this.pouriaButton.Size = new System.Drawing.Size(62, 23);
+			this.pouriaButton.TabIndex = 2;
+			this.pouriaButton.Text = "Click";
+			this.pouriaButton.UseVisualStyleBackColor = true;
 			// 
 			// Form05
 			// 
@@ -73,11 +73,10 @@ namespace MyApplication
 			this.PerformLayout();
 
 		}
-
 		#endregion
 
-		private System.Windows.Forms.Label pouriaNameLabel2;
-		private System.Windows.Forms.TextBox pouriaTextBox2;
-		private System.Windows.Forms.Button pouriaButton2;
+		private System.Windows.Forms.Label pouriaNameLabel;
+		private System.Windows.Forms.TextBox pouriaTextBox;
+		private System.Windows.Forms.Button pouriaButton;
 	}
 }
