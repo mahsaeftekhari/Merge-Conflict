@@ -37,7 +37,7 @@ namespace MyApplication
 			// pouriaButton
 			// 
 			this.pouriaButton.Location = new System.Drawing.Point(118, 38);
-			this.pouriaButton.Name = "pouriaButton1";
+			this.pouriaButton.Name = "pouriaButton";
 			this.pouriaButton.Size = new System.Drawing.Size(62, 23);
 			this.pouriaButton.TabIndex = 0;
 			this.pouriaButton.Text = "Click";
@@ -47,7 +47,7 @@ namespace MyApplication
 			// 
 			this.pouriaNameLabel.AutoSize = true;
 			this.pouriaNameLabel.Location = new System.Drawing.Point(9, 15);
-			this.pouriaNameLabel.Name = "pouriaNameLabel1";
+			this.pouriaNameLabel.Name = "pouriaNameLabel";
 			this.pouriaNameLabel.Size = new System.Drawing.Size(103, 13);
 			this.pouriaNameLabel.TabIndex = 1;
 			this.pouriaNameLabel.Text = "Pouria Heydarzadeh";
@@ -55,7 +55,7 @@ namespace MyApplication
 			// pouriaTextBox
 			// 
 			this.pouriaTextBox.Location = new System.Drawing.Point(118, 12);
-			this.pouriaTextBox.Name = "pouriaTextBox1";
+			this.pouriaTextBox.Name = "pouriaTextBox";
 			this.pouriaTextBox.Size = new System.Drawing.Size(354, 20);
 			this.pouriaTextBox.TabIndex = 2;
 			// 
