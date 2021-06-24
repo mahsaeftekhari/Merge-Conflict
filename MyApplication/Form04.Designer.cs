@@ -29,46 +29,54 @@ namespace MyApplication
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.nameLabel = new System.Windows.Forms.Label();
-            this.testTextBox = new System.Windows.Forms.TextBox();
-            this.testButton = new System.Windows.Forms.Button();
+            this.sepehrNameLabel = new System.Windows.Forms.Label();
+            this.sepehrButton = new System.Windows.Forms.Button();
+            this.sepehrTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // nameLabel
+            // sepehrNameLabel
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.Location = new System.Drawing.Point(412, 9);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(60, 13);
-            this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "Mitra Safari";
+            this.sepehrNameLabel.AutoSize = true;
+            this.sepehrNameLabel.BackColor = System.Drawing.Color.White;
+            this.sepehrNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sepehrNameLabel.Location = new System.Drawing.Point(12, 9);
+            this.sepehrNameLabel.Name = "sepehrNameLabel";
+            this.sepehrNameLabel.Size = new System.Drawing.Size(124, 20);
+            this.sepehrNameLabel.TabIndex = 0;
+            this.sepehrNameLabel.Text = "Sepehr Golpazir";
             // 
-            // testTextBox
+            // sepehrButton
             // 
-            this.testTextBox.Location = new System.Drawing.Point(372, 26);
-            this.testTextBox.Name = "testTextBox";
-            this.testTextBox.Size = new System.Drawing.Size(100, 20);
-            this.testTextBox.TabIndex = 1;
+            this.sepehrButton.Location = new System.Drawing.Point(12, 226);
+            this.sepehrButton.Name = "sepehrButton";
+            this.sepehrButton.Size = new System.Drawing.Size(75, 23);
+            this.sepehrButton.TabIndex = 1;
+            this.sepehrButton.Text = "Click Me";
+            this.sepehrButton.UseVisualStyleBackColor = true;
+            this.sepehrButton.Click += new System.EventHandler(this.SepehrButton_Click);
             // 
-            // testButton
+            // sepehrTextBox
             // 
-            this.testButton.Location = new System.Drawing.Point(397, 52);
-            this.testButton.Name = "testButton";
-            this.testButton.Size = new System.Drawing.Size(75, 23);
-            this.testButton.TabIndex = 2;
-            this.testButton.Text = "Test";
-            this.testButton.UseVisualStyleBackColor = true;
+            this.sepehrTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.sepehrTextBox.Location = new System.Drawing.Point(12, 32);
+            this.sepehrTextBox.MaxLength = 300;
+            this.sepehrTextBox.Multiline = true;
+            this.sepehrTextBox.Name = "sepehrTextBox";
+            this.sepehrTextBox.Size = new System.Drawing.Size(124, 188);
+            this.sepehrTextBox.TabIndex = 2;
+            this.sepehrTextBox.Text = "Hello and welcome to our form";
             // 
             // Form04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 361);
-            this.Controls.Add(this.testButton);
-            this.Controls.Add(this.testTextBox);
-            this.Controls.Add(this.nameLabel);
+            this.ClientSize = new System.Drawing.Size(384, 261);
+            this.Controls.Add(this.sepehrTextBox);
+            this.Controls.Add(this.sepehrButton);
+            this.Controls.Add(this.sepehrNameLabel);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "Form04";
+            this.Text = "Sepher and Mitra Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,8 +84,8 @@ namespace MyApplication
 
         #endregion
 
-        private System.Windows.Forms.Label nameLabel;
-        private System.Windows.Forms.TextBox testTextBox;
-        private System.Windows.Forms.Button testButton;
+        private System.Windows.Forms.Label sepehrNameLabel;
+        private System.Windows.Forms.Button sepehrButton;
+        private System.Windows.Forms.TextBox sepehrTextBox;
     }
 }
