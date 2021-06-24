@@ -49,7 +49,6 @@ namespace MyApplication
             this.marziehTextBox.Name = "marziehTextBox";
             this.marziehTextBox.Size = new System.Drawing.Size(352, 20);
             this.marziehTextBox.TabIndex = 1;
-            this.marziehTextBox.TextChanged += new System.EventHandler(this.marziehTextBox_TextChanged);
             // 
             // marziehButton
             // 
