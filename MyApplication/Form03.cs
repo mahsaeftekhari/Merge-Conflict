@@ -10,11 +10,6 @@
 		{
 			InitializeComponent();
 		}
-        #endregion /Default Constructor
-
-        private void marziehTextBox_TextChanged(object sender, System.EventArgs e)
-        {
-
-        }
-    }
+	 	#endregion /Default Constructor
+	}
 }
